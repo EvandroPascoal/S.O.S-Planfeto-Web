@@ -1,0 +1,74 @@
+:root {
+    --bg-color: #1d2021;
+    --text-color: #fbf1c7;
+    --links-color: #A78295;
+    --highlight-color: #cc241d;
+    --hover-color: #3F2E3E;
+    --primary-font: 'Fira Code', monospace;
+}
+
+.container-quatro {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--text-color);
+  gap: 4rem;
+}
+
+.container-quatro h5 {
+    font-size: 3rem;
+    margin-top: 7rem;
+    opacity: 0; 
+    visibility: hidden; 
+}
+.caixa-quatro {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem 12rem ;
+}
+
+
+
+@media (max-width:1380px){ 
+    .container-quatro {
+        width: 100%;
+        height: auto;
+        padding-bottom: 5rem;
+        padding-top: 1rem;
+    
+      }
+
+      .container-quatro h5 {
+        margin-top: 8rem;
+        opacity: 0; 
+        visibility: hidden; 
+    }
+
+     
+}
+@media (max-width:440px){ 
+    .container-quatro {
+        width: 100%;
+        height: auto;
+        padding-bottom: 5rem;
+        padding-top: 1rem;
+    
+      }
+
+      .container-quatro h5 {
+        font-size: 3rem;
+        margin-top: 8rem;
+        opacity: 0; 
+        visibility: hidden; 
+    }
+
+     
+}

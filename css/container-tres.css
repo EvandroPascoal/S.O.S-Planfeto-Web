@@ -1,0 +1,227 @@
+:root {
+    --bg-color: #1d2021;
+    --text-color: #fbf1c7;
+    --links-color: #A78295;
+    --highlight-color: #cc241d;
+    --hover-color: #3F2E3E;
+    --primary-font: 'Fira Code', monospace;
+}
+
+.container-tres {
+    background-color: var(--bg-color);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.fixed {
+  position: fixed;
+  top: 7rem;
+  z-index: 10;
+  text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 3rem;
+    
+
+}
+
+.caixa-dois , .caixa-tres {
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2.5rem;
+    color: var(--text-color);
+}
+
+.imagem img {
+    height: 20rem;
+}
+
+.forum {
+    text-align: right;
+}
+
+.monitorar {
+    text-align: left;
+}
+
+.animate__fadeOutLeft {
+  animation: fadeOutLeft 1.5s ease;
+}
+
+.animate__fadeOutRight {
+  animation: fadeOutRight 1.5s ease;
+}
+
+@keyframes fadeOutLeft {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes fadeOutRight {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+
+
+.animate__fadeInUp {
+  animation: fadeInUp 2s ease;
+}
+
+.animate__fadeOutDown {
+  animation: fadeOutDown 2s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOutDown {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 1000px){
+  h4 {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    
+}
+
+.caixa-dois , .caixa-tres {
+  width: 80%;
+  height: 60dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-top: 4rem;
+
+}
+
+
+.imagem img {
+  height: 18rem;
+}
+
+.forum , .monitorar {
+  text-align: center;
+}
+
+}
+
+
+@media (max-width: 700px){
+  h4 {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 1.7rem;
+    margin-top: 3rem;
+    
+}
+
+.caixa-dois , .caixa-tres {
+  width: 80%;
+  height: 60dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-top: 4rem;
+
+}
+
+
+.imagem img {
+  height: 13rem;
+}
+
+.forum , .monitorar {
+  text-align: center;
+}
+
+}
+
+
+@media (max-width: 440px){
+  h4 {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 1.8rem;
+    
+}
+
+.caixa-dois , .caixa-tres {
+  width: 80%;
+  height: 60dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-top: 7rem;
+
+}
+
+
+.imagem img {
+  height: 10rem;
+}
+
+.forum , .monitorar {
+  text-align: center;
+}
+
+}
