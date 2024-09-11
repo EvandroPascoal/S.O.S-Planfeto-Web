@@ -28,6 +28,10 @@
     margin-top: 15rem;
 }
 
+.caixa-footer {
+    width: 100%;
+}
+
 footer {
     background-color: #000;
     height: 4rem;
@@ -37,6 +41,9 @@ footer {
     justify-content: center;
     font-weight: 600;
     bottom: 0;
+    color: var(--text-color);
+    z-index: 0;
+  
     
   
 }
