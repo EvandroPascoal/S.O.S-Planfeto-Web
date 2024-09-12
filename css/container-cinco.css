@@ -72,13 +72,31 @@ footer a:hover {
     animation-delay: 1s; 
 }
 
+@media only screen and (min-width: 1336px) and (min-height: 768px) {
+    
+
+
+    .caixa-texto {
+        width: 80%;
+        height: 50%;
+        font-size: 3rem;
+        margin-top: 9rem;
+    }
+
+
+
+
+
+
+  }
+
 @media (max-width: 953px){ 
 
     .caixa-texto {
         width: 90%;
         height: 50dvh;
         font-size: 2rem;
-       
+        margin-top: 15rem;
     }
 
     footer {
